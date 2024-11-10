@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Phili/OneDrive/Desktop/cpp/006_Fahrenheit/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IC:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\006_Fahrenheit\\src -IC:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\006_Fahrenheit\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\SampleProject.dir\\src\\main.cpp.obj /FdCMakeFiles\\SampleProject.dir/ /FS -c C:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\006_Fahrenheit\\src\\main.cpp",
+  "file": "C:/Users/Phili/OneDrive/Desktop/cpp/006_Fahrenheit/src/main.cpp",
+  "output": "CMakeFiles/SampleProject.dir/src/main.cpp.obj"
+}
+]

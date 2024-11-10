@@ -1,0 +1,189 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++-Optimierungscompiler Version 19.37.32825 für x64
+      Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Phili/OneDrive/Desktop/cpp/005_casten/build/CMakeFiles/3.26.0-rc6/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Hinweis: Einlesen der Datei: C:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\005_casten\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Hinweis: Einlesen der Datei: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++-Optimierungscompiler Version 19.37.32825 für x64
+      Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Phili/OneDrive/Desktop/cpp/005_casten/build/CMakeFiles/3.26.0-rc6/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Hinweis: Einlesen der Datei: C:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\005_casten\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Hinweis: Einlesen der Datei: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Phili/OneDrive/Desktop/cpp/005_casten/build/CMakeFiles/CMakeScratch/TryCompile-tyv720"
+      binary: "C:/Users/Phili/OneDrive/Desktop/cpp/005_casten/build/CMakeFiles/CMakeScratch/TryCompile-tyv720"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Phili/OneDrive/Desktop/cpp/005_casten/build/CMakeFiles/CMakeScratch/TryCompile-tyv720
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9e9a1/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9e9a1.dir\\build.make CMakeFiles/cmTC_9e9a1.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Phili/OneDrive/Desktop/cpp/005_casten/build/CMakeFiles/CMakeScratch/TryCompile-tyv720'
+        Building C object CMakeFiles/cmTC_9e9a1.dir/CMakeCCompilerABI.c.obj
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_9e9a1.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\005_casten\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tyv720 --filter-prefix="Hinweis: Einlesen der Datei: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9e9a1.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_9e9a1.dir/ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_9e9a1.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9e9a1.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9e9a1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9e9a1.dir\\objects1.rsp  /out:cmTC_9e9a1.exe /implib:cmTC_9e9a1.lib /pdb:C:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\005_casten\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tyv720\\cmTC_9e9a1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_9e9a1.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_9e9a1.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_9e9a1.dir/manifest.res CMakeFiles\\cmTC_9e9a1.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9e9a1.dir\\objects1.rsp /out:cmTC_9e9a1.exe /implib:cmTC_9e9a1.lib /pdb:C:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\005_casten\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tyv720\\cmTC_9e9a1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9e9a1.dir/intermediate.manifest CMakeFiles\\cmTC_9e9a1.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_9e9a1.dir/intermediate.manifest /out:CMakeFiles\\cmTC_9e9a1.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_9e9a1.dir/manifest.res CMakeFiles\\cmTC_9e9a1.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9e9a1.dir\\objects1.rsp /out:cmTC_9e9a1.exe /implib:cmTC_9e9a1.lib /pdb:C:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\005_casten\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tyv720\\cmTC_9e9a1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9e9a1.dir/intermediate.manifest CMakeFiles\\cmTC_9e9a1.dir/manifest.res
+        mingw32-make[1]: Leaving directory 'C:/Users/Phili/OneDrive/Desktop/cpp/005_casten/build/CMakeFiles/CMakeScratch/TryCompile-tyv720'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Phili/OneDrive/Desktop/cpp/005_casten/build/CMakeFiles/CMakeScratch/TryCompile-ilb9zc"
+      binary: "C:/Users/Phili/OneDrive/Desktop/cpp/005_casten/build/CMakeFiles/CMakeScratch/TryCompile-ilb9zc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Phili/OneDrive/Desktop/cpp/005_casten/build/CMakeFiles/CMakeScratch/TryCompile-ilb9zc
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_79cdd/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_79cdd.dir\\build.make CMakeFiles/cmTC_79cdd.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Phili/OneDrive/Desktop/cpp/005_casten/build/CMakeFiles/CMakeScratch/TryCompile-ilb9zc'
+        Building CXX object CMakeFiles/cmTC_79cdd.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_79cdd.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\005_casten\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ilb9zc --filter-prefix="Hinweis: Einlesen der Datei: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_79cdd.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_79cdd.dir/ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_79cdd.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_79cdd.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_79cdd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_79cdd.dir\\objects1.rsp  /out:cmTC_79cdd.exe /implib:cmTC_79cdd.lib /pdb:C:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\005_casten\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ilb9zc\\cmTC_79cdd.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_79cdd.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_79cdd.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_79cdd.dir/manifest.res CMakeFiles\\cmTC_79cdd.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_79cdd.dir\\objects1.rsp /out:cmTC_79cdd.exe /implib:cmTC_79cdd.lib /pdb:C:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\005_casten\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ilb9zc\\cmTC_79cdd.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_79cdd.dir/intermediate.manifest CMakeFiles\\cmTC_79cdd.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_79cdd.dir/intermediate.manifest /out:CMakeFiles\\cmTC_79cdd.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_79cdd.dir/manifest.res CMakeFiles\\cmTC_79cdd.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_79cdd.dir\\objects1.rsp /out:cmTC_79cdd.exe /implib:cmTC_79cdd.lib /pdb:C:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\005_casten\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ilb9zc\\cmTC_79cdd.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_79cdd.dir/intermediate.manifest CMakeFiles\\cmTC_79cdd.dir/manifest.res
+        mingw32-make[1]: Leaving directory 'C:/Users/Phili/OneDrive/Desktop/cpp/005_casten/build/CMakeFiles/CMakeScratch/TryCompile-ilb9zc'
+        
+      exitCode: 0
+...
