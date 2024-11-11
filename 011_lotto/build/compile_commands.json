@@ -1,8 +1,0 @@
-[
-{
-  "directory": "C:/Users/Phili/OneDrive/Desktop/cpp/011_lotto/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/SampleProject.dir/includes_CXX.rsp -g -o CMakeFiles\\SampleProject.dir\\src\\main.cpp.obj -c C:\\Users\\Phili\\OneDrive\\Desktop\\cpp\\011_lotto\\src\\main.cpp",
-  "file": "C:/Users/Phili/OneDrive/Desktop/cpp/011_lotto/src/main.cpp",
-  "output": "CMakeFiles/SampleProject.dir/src/main.cpp.obj"
-}
-]
